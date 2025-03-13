@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router';
+import Read from '../view/read';
 
 function BlogCard({id,Title,Keyword,Author,Content,Thumbnail}) {
   return (
